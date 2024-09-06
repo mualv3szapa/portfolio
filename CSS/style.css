@@ -96,11 +96,13 @@
 
 .about {
   display: flex;
-  height: 800px;
+  height: 1000px;
   width: 100%;
   background-color: #f2f2f2;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  flex-direction: column;
+  /* padding: 0 20%; */
 }
 
 .about .AboutTitle {
@@ -108,12 +110,30 @@
   width: 300px;
   font-size: 30px;
   font-family: RubikMonoOne;
+  /* margin-left: -159px; */
 }
 
 .about .FlexArticle {
-  width: 80%;
+  width: 1200px;
   height: 80%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 100px;
+  border: 2px solid black;
+  align-self: center;
+}
+
+.about .FlexArticle .photo {
+  width: 500px;
+  height: 700px;
+  /* margin-left: -136px; */
+  /* margin-top: -152px; */
+}
+
+.about .FlexArticle .aboutMe {
+  height: 400px;
+  /* width: 5000px; */
+  text-align: justify;
+  border: 2px solid red;
 }
