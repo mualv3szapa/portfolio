@@ -1,0 +1,119 @@
+/* Import das fontes */
+
+/* Fonte voltada a titutulos H1 */
+@font-face {
+  font-family: RubikMonoOne;
+  src: url(../Assets/Fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf);
+}
+
+/* Fonte voltada a subtitulos H2 */
+@font-face {
+  font-family: MontSerrat;
+  src: url(../Assets/Fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: MontSerratLight;
+  src: url(../Assets/Fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+/* Fontes voltadas a paragrafos p */
+@font-face {
+  font-family: Overpass;
+  src: url(../Assets/Fonts/Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  width: 100%;
+  height: 120px;
+  background-color: #f2f2f2;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 100;
+  -webkit-box-shadow: 3px 8px 66px -17px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 8px 66px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 8px 66px -17px rgba(0, 0, 0, 0.75);
+}
+
+.Header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  height: 100px;
+  /* border: 2px solid red; */
+}
+
+.Header nav .HeaderLinks {
+  color: #2c403e;
+  font-size: 18px;
+  font-family: Overpass;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.Main .MainSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  width: 100%;
+  gap: 20px;
+  background-color: #8fbfbf;
+  margin-top: 120px;
+}
+
+.Main .MainSection .name {
+  font-size: 30px;
+  font-family: RubikMonoOne;
+  color: #2c403e;
+}
+
+.Main .MainSection h2 {
+  text-align: center;
+  font-family: MontSerratLight;
+  font-size: 20px;
+  color: #0d0d0d;
+}
+
+.about {
+  display: flex;
+  height: 800px;
+  width: 100%;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .AboutTitle {
+  margin: 100px 100px;
+  width: 300px;
+  font-size: 30px;
+  font-family: RubikMonoOne;
+}
+
+.about .FlexArticle {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
