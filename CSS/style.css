@@ -106,7 +106,7 @@
 }
 
 .about .AboutTitle {
-  margin: 100px 100px;
+  margin: 0 100px;
   width: 300px;
   font-size: 30px;
   font-family: RubikMonoOne;
@@ -119,8 +119,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  border: 2px solid black;
+  gap: 48px;
+  /* border: 2px solid black; */
   align-self: center;
 }
 
@@ -132,8 +132,8 @@
 }
 
 .about .FlexArticle .aboutMe {
-  height: 400px;
-  /* width: 5000px; */
+  font-size: 18px;
+  font-family: MontSerrat;
   text-align: justify;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
